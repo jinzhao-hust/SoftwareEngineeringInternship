@@ -4,4 +4,10 @@
   <view class="container">
     Weixin
   </view>
+ <i-button type="primary" bind:click="handleClick">这是一个按钮</i-button> 
+
+ <i-panel title="标题">
+    <view style="padding: 15px;">PANEL 内容区域</view>
+</i-panel>
+
 </scroll-view>
