@@ -17,3 +17,49 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* 使用vh单位来确保占据整个屏幕的高度 */
+}
+
+.part {
+  flex: 1; /* 使每一部分都有相同的高度 */
+  display: flex;
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+}
+
+.title {
+  font-size: 60rpx;
+  font-weight: bold;
+  justify-content: center;
+  font-family: "宋体";
+}
+
+.image-container {
+  height: 170rpx; /* 你可以设置所需的高度 */
+  width: auto;
+}
+.clickable-image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.rementitle {
+  font-size: 45rpx;
+  font-weight: bold;
+  justify-content: center;
+  font-family: "宋体";
+}
+
+.tuijian {
+  font-size: 40rpx;
+  
+  justify-content: left;
+  font-family: "宋体";
+}
